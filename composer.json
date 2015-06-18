@@ -1,0 +1,17 @@
+{
+    "name": "vmnrd/tesla-api",
+    "authors": [
+        {
+            "name": "Valentin",
+            "email": "valentin.menardie@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "nekland/base-api": "^1.1",
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "autoload": {
+        "psr-0": { "": "src/" }
+    }
+}
