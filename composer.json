@@ -9,7 +9,10 @@
     "require": {
         "php": ">=5.4",
         "nekland/base-api": "^1.1",
-        "guzzlehttp/guzzle": "^6.0"
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.1"
     },
     "autoload": {
         "psr-0": { "": "src/" }

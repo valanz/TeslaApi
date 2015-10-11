@@ -9,8 +9,8 @@ use Vmnrd\TeslaApi\Api\Vehicles;
 
 /**
  * Class Tesla
- * @package Vmnrd\TeslaApi
  * @method Vehicles getVehiclesApi()
+ * @method Vehicles getCommandsApi()
  */
 class Tesla extends ApiFactory
 {
@@ -19,7 +19,7 @@ class Tesla extends ApiFactory
      * @var array
      */
     private $options = [
-        'base_url' => 'https://private-anon-1cded6187-timdorr.apiary-mock.com/'
+        'base_url' => 'https://owner-api.teslamotors.com/'
     ];
 
     /**
